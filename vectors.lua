@@ -27,4 +27,9 @@ function vectors.Vec2d:normalize()
    return vectors.Vec2d:new(self.x / l, self.y / l)
 end
 
+-- Useful vectors
+vectors.zero = vectors.Vec2d:new(0, 0)
+vectors.up = vectors.Vec2d:new(0, -1)
+vectors.down = vectors.Vec2d:new(0, 1)
+
 return vectors
