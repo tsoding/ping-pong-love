@@ -37,7 +37,8 @@ end
 ------------------------------
 
 objects.Bar = {
-   width = 10
+   width = 10,
+   velocityValue = 300
 }
 
 function objects.Bar:new(position, length, color)
@@ -64,11 +65,11 @@ function objects.Bar:update(dt)
       self.velocity = vectors.zero
 
       if self.controller.up() then
-         self.velocity = self.velocity + vectors.up * 100
+         self.velocity = self.velocity + vectors.up * self.velocityValue
       end
 
       if self.controller.down() then
-         self.velocity = self.velocity + vectors.down * 100
+         self.velocity = self.velocity + vectors.down * self.velocityValue
       end
    end
 
