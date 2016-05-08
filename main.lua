@@ -1,7 +1,8 @@
 local vectors = require("vectors")
 local objects = require ("objects")
+local ball = require("ball")
 local Vec2d = vectors.Vec2d
-local Ball = objects.Ball
+local Ball = ball.Ball
 local Bar = objects.Bar
 
 function trigger(keyName)
