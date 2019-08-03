@@ -1,3 +1,4 @@
+[![Tsoding](https://img.shields.io/badge/twitch.tv-tsoding-purple?logo=twitch&style=for-the-badge)](https://www.twitch.tv/tsoding)
 # Ping Pong LÖVE #
 
 A simple Ping Pong game intended as an exercise to learn
